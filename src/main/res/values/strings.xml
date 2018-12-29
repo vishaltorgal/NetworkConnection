@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">NetworkConnection</string>
+    <string name="tv_check">Check Network</string>
 </resources>

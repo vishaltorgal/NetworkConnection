@@ -32,28 +32,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
     }
 
 
     private class AsyncTaskRunner extends AsyncTask<String, String, String> {
 
-
-        ProgressDialog progressDialog;
         Boolean net;
 
         @Override
         protected void onPreExecute() {
-            progressDialog = ProgressDialog.show(MainActivity.this,
-                    "ProgressDialog",
-                    "Checking Nework Connection");
         }
-
 
         @Override
         protected String doInBackground(String... params) {
             try {
-
 
                 if (new Connection().isInternetAvailable(GOOGLE) == true ||
                         new Connection().isInternetAvailable(YAHOO) == true ||
@@ -65,28 +57,21 @@ public class MainActivity extends AppCompatActivity {
                     net = false;
                 }
 
-
             } catch (Exception e) {
                 e.printStackTrace();
             }
             return "";
         }
 
-
         @Override
         protected void onPostExecute(String result) {
-            // execution of result of Long time consuming operation
-            progressDialog.dismiss();
-            tv_status.setText(result);
-
 
             if (net) {
-                tv_status.setText("Connection Availabe");
+                tv_status.setText("Connection Available");
             } else {
                 tv_status.setText("No Network Connection");
             }
         }
-
 
     }
 

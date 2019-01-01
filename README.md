@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Check Internet Connection in Android <h2/>
+<h2> Check Internet Connection in Android <h2/>
 
 
 <p style="text-align: center;"><span style="color: #000000;"><span style="caret-color: #333399;"><strong>Download APK Link&nbsp;</strong></span></span></p>

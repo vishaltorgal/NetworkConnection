@@ -3,7 +3,7 @@
 <a href="https://github.com/vishaltorgal/NetworkConnection/raw/master/networkcheck.apk"><img src="https://github.com/vishaltorgal/SendingEmails/blob/master/dlapk.png" width="150" height="80" title="White flower" alt="Flower"></a>
 
 <br><br>
-<p style="text-align: center;"><img src="https://github.com/vishaltorgal/NetworkConnection/blob/master/nwc1.png" alt="" width="400" height="550"/>&nbsp;</p>
+<p style="text-align: center;"><img src="https://github.com/vishaltorgal/NetworkConnection/blob/master/nwc1.png" alt="" width="300" height="450"/>&nbsp;</p>
 
 <br><br>
 
@@ -24,7 +24,6 @@
 ```
 
 ```java
-<h3> Type 2 </h3>
 
      public boolean isNetworkAvailable(Context context) 
       {

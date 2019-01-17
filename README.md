@@ -28,7 +28,9 @@
      public boolean isNetworkAvailable(Context context) 
       {
         
-        final ConnectivityManager connectivityManager = ((ConnectivityManager)      context.getSystemService(Context.CONNECTIVITY_SERVICE));
+        final ConnectivityManager connectivityManager = ((ConnectivityManager) 
+            context.getSystemService(Context.CONNECTIVITY_SERVICE));
+            
         return connectivityManager.getActiveNetworkInfo() != null && connectivityManager.getActiveNetworkInfo().isConnected();
     }
 
